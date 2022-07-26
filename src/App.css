@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: green;
+}
+
+.heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-text{
+  text-align: center;
+  padding: 1% 4%;
+  margin: 10px 0;
+  border-radius: 10px;
+  color: white;
+}
+
+.star-icon{
+  color: white;
+  background: none;
+}
+
+.star{
+  margin: 10px;
+   background: none;
+}
+
+.rating-mssg-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.rating-mssg{
+  padding: 2% 4%;
+  background: lightgreen;
+  color: white;
+}
+
+.star-fit{
+  display: inline-block;
+  background: none;
+  /* border: 2px solid black; */
+}
+
+.star-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+}
+
+.img-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: none;
+  border: none;
+  outline: none;
+  padding: 2% 4%;
+}
+
+.img{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.btn-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.orange{
+  color: orange;
+}
+
+.yellow{
+  color: yellow;
+}
